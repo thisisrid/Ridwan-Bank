@@ -8,14 +8,56 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login_area text-center">
+    <div id="login-area" class="login_area text-center">
         <h1 class="p-5 mx-5 display-5 fw-bold">Welcome To <span class="text-warning">Ridwan's Bank!</span></h1>
-        <div class="input_area">
+        <div class="input_area px-5 mx-5">
             <h4>Login</h4>
-            <input type="email" class="form-control m-3" placeholder="EMAIL" name="" id="">
-            <input type="password"  class="form-control m-3"  placeholder="PASSWORD" name="" id="">
-            <div class="btn btn-success"> SUBMIT</div>
+            <input type="email" class="form-control m-3" placeholder="EMAIL" name="" id="inputEmail">
+            <input type="password"  class="form-control m-3"  placeholder="PASSWORD" name="" id="inputPassword">
+            <div id="submitBtn" class="btn btn-success"> SUBMIT</div>
         </div>
     </div>
+
+    <div id="transaction-area">
+        <div class="row px-4">
+            <div class="col-md-4">
+                <div class="deposit status">
+                    <h5>Deposite</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="withdraw status">
+                    <h5>Withdraw</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="balance status">
+                    <h5>Balance</h5>
+                    <h2>$00</h2>
+                </div>
+            </div>
+        </div>
+        
+            <div class="row mx-3">
+                <div class="col-md-6">
+                    <div class="input_area px-3 mx-2">
+                        <h5>Deposite</h5>
+                    <input class="form-control" type="text">
+                    <div class="btn btn-success mt-2">Deposite</div>
+                    </div>
+                 </div>
+                <div class="col-md-6">
+                    <div class="input_area px-3 mx-2">
+                        <h5>Withdraw</h5>
+                    <input class="form-control" type="text">
+                    <div class="btn btn-success mt-2">Withdraw</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="main.js"></script>
 </body>
 </html>

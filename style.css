@@ -1,6 +1,24 @@
 .input_area {
-    margin: 80px;
-    padding: 20px 50px;
+    margin-top: 80px;
+    padding: 20px 10px;
     border-radius: 10px;
-    box-shadow: 5px 10px 9px gray;
+    box-shadow: 10px 10px 9px gray;
+}
+#transaction-area {
+    display: none;
+}
+.deposit {
+    background-color: rgb(28, 124, 9);
+}
+.withdraw {
+    background-color: rgb(177, 9, 9);
+}
+.balance {
+    background-color: rgb(11, 85, 170);
+}
+.status {
+    margin: 20px 40px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
 }
